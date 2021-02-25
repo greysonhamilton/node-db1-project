@@ -35,7 +35,7 @@ const deleteById = async id => {
     .where({ id })
     .del()
 
-    return "Account was successfully deleted."
+    return alert("Account was successfully deleted.")
 }
 
 module.exports = {
